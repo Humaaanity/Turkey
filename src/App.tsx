@@ -8,6 +8,7 @@ import card_4 from './images/card4.png'
 import Card from './components/Card'
 import Problem from './components/Problem'
 import Video from './components/Video'
+import Why from './components/Why'
 
 
 const Array = [
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <>
-    <div className='font-sans mt-[20px] mx-[140px] w-100'>
+    <div className='font-sans mt-[20px] mx-[240px] w-100'>
       <Header/>
       <Ref/>
       <div className='flex flex-row justify-between mt-[43px] '>
@@ -36,6 +37,7 @@ function App() {
       <Problem/>
       <div >
       <Video/>
+      <Why/>
       </div>
     </div>
       
