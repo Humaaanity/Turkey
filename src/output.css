@@ -1,0 +1,1403 @@
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+/*
+! tailwindcss v3.4.15 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+  -webkit-tap-highlight-color: transparent;
+  /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-feature-settings: normal;
+  /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  /* 1 */
+  vertical-align: middle;
+  /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-ThinItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Thin Italic'), local('./fonts/GT/GTEestiProText-ThinItalic'),
+        url('./fonts/GT/GTEestiProText-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-ThinItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-ThinItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-ThinItalic.ttf') format('truetype');
+
+  font-weight: 100;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-Medium.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Medium'), local('./fonts/GT/GTEestiProText-Medium'),
+        url('./fonts/GT/GTEestiProText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-Medium.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-Medium.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-Medium.ttf') format('truetype');
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-LightItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Light Italic'), local('./fonts/GT/GTEestiProText-LightItalic'),
+        url('./fonts/GT/GTEestiProText-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-LightItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-LightItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-LightItalic.ttf') format('truetype');
+
+  font-weight: 300;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-Bold.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display Bold'), local('./fonts/GT/GTEestiProDisplay-Bold'),
+        url('./fonts/GT/GTEestiProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-Bold.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-Bold.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-Bold.ttf') format('truetype');
+
+  font-weight: bold;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-Light.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Light'), local('./fonts/GT/GTEestiProText-Light'),
+        url('./fonts/GT/GTEestiProText-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-Light.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-Light.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-Light.ttf') format('truetype');
+
+  font-weight: 300;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-MediumItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display Medium Italic'), local('./fonts/GT/GTEestiProDisplay-MediumItalic'),
+        url('./fonts/GT/GTEestiProDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-MediumItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-MediumItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-MediumItalic.ttf') format('truetype');
+
+  font-weight: 500;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-RegularItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Regular Italic'), local('./fonts/GT/GTEestiProText-RegularItalic'),
+        url('./fonts/GT/GTEestiProText-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-RegularItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-RegularItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-RegularItalic.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text Book';
+
+  src: url('./fonts/GT/GTEestiProText-Book.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Book'), local('./fonts/GT/GTEestiProText-Book'),
+        url('./fonts/GT/GTEestiProText-Book.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-Book.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-Book.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-Book.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-BoldItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Bold Italic'), local('./fonts/GT/GTEestiProText-BoldItalic'),
+        url('./fonts/GT/GTEestiProText-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-BoldItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-BoldItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-BoldItalic.ttf') format('truetype');
+
+  font-weight: bold;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-UltraLightItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text UltraLight Italic'), local('./fonts/GT/GTEestiProText-UltraLightItalic'),
+        url('./fonts/GT/GTEestiProText-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-UltraLightItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-UltraLightItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-UltraLightItalic.ttf') format('truetype');
+
+  font-weight: 200;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-Thin.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display Thin'), local('./fonts/GT/GTEestiProDisplay-Thin'),
+        url('./fonts/GT/GTEestiProDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-Thin.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-Thin.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-Thin.ttf') format('truetype');
+
+  font-weight: 100;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-Regular.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Regular'), local('./fonts/GT/GTEestiProText-Regular'),
+        url('./fonts/GT/GTEestiProText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-Regular.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-Regular.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-Regular.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-Light.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display Light'), local('./fonts/GT/GTEestiProDisplay-Light'),
+        url('./fonts/GT/GTEestiProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-Light.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-Light.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-Light.ttf') format('truetype');
+
+  font-weight: 300;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-UltraBold.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display UltraBold'), local('./fonts/GT/GTEestiProDisplay-UltraBold'),
+        url('./fonts/GT/GTEestiProDisplay-UltraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-UltraBold.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-UltraBold.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-UltraBold.ttf') format('truetype');
+
+  font-weight: 800;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-UltraBoldItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display UltraBold Italic'), local('./fonts/GT/GTEestiProDisplay-UltraBoldItalic'),
+        url('./fonts/GT/GTEestiProDisplay-UltraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-UltraBoldItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-UltraBoldItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-UltraBoldItalic.ttf') format('truetype');
+
+  font-weight: 800;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-Medium.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display Medium'), local('./fonts/GT/GTEestiProDisplay-Medium'),
+        url('./fonts/GT/GTEestiProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-Medium.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-Medium.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-Medium.ttf') format('truetype');
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-UltraLight.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display UltraLight'), local('./fonts/GT/GTEestiProDisplay-UltraLight'),
+        url('./fonts/GT/GTEestiProDisplay-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-UltraLight.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-UltraLight.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-UltraLight.ttf') format('truetype');
+
+  font-weight: 200;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-RegularItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display Regular Italic'), local('./fonts/GT/GTEestiProDisplay-RegularItalic'),
+        url('./fonts/GT/GTEestiProDisplay-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-RegularItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-RegularItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-RegularItalic.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-LightItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display Light Italic'), local('./fonts/GT/GTEestiProDisplay-LightItalic'),
+        url('./fonts/GT/GTEestiProDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-LightItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-LightItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-LightItalic.ttf') format('truetype');
+
+  font-weight: 300;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-Bold.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Bold'), local('./fonts/GT/GTEestiProText-Bold'),
+        url('./fonts/GT/GTEestiProText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-Bold.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-Bold.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-Bold.ttf') format('truetype');
+
+  font-weight: bold;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-Thin.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Thin'), local('./fonts/GT/GTEestiProText-Thin'),
+        url('./fonts/GT/GTEestiProText-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-Thin.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-Thin.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-Thin.ttf') format('truetype');
+
+  font-weight: 100;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-UltraLightItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display UltraLight Italic'), local('./fonts/GT/GTEestiProDisplay-UltraLightItalic'),
+        url('./fonts/GT/GTEestiProDisplay-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-UltraLightItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-UltraLightItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-UltraLightItalic.ttf') format('truetype');
+
+  font-weight: 200;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-BoldItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display Bold Italic'), local('./fonts/GT/GTEestiProDisplay-BoldItalic'),
+        url('./fonts/GT/GTEestiProDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-BoldItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-BoldItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-BoldItalic.ttf') format('truetype');
+
+  font-weight: bold;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-MediumItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Medium Italic'), local('./fonts/GT/GTEestiProText-MediumItalic'),
+        url('./fonts/GT/GTEestiProText-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-MediumItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-MediumItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-MediumItalic.ttf') format('truetype');
+
+  font-weight: 500;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text Book';
+
+  src: url('./fonts/GT/GTEestiProText-BookItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text Book Italic'), local('./fonts/GT/GTEestiProText-BookItalic'),
+        url('./fonts/GT/GTEestiProText-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-BookItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-BookItalic.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-BookItalic.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+
+  src: url('./fonts/GT/GTEestiProText-UltraLight.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Text UltraLight'), local('./fonts/GT/GTEestiProText-UltraLight'),
+        url('./fonts/GT/GTEestiProText-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProText-UltraLight.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProText-UltraLight.woff') format('woff'),
+        url('./fonts/GT/GTEestiProText-UltraLight.ttf') format('truetype');
+
+  font-weight: 200;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-Regular.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display Regular'), local('./fonts/GT/GTEestiProDisplay-Regular'),
+        url('./fonts/GT/GTEestiProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-Regular.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-Regular.woff') format('woff'),
+        url('./fonts/GT/GTEestiProDisplay-Regular.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+
+  src: url('./fonts/GT/GTEestiProDisplay-ThinItalic.eot');
+
+  src: local('./fonts/GT/GT Eesti Pro Display Thin Italic'), local('./fonts/GT/GTEestiProDisplay-ThinItalic'),
+        url('./fonts/GT/GTEestiProDisplay-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GT/GTEestiProDisplay-ThinItalic.woff2') format('woff2'),
+        url('./fonts/GT/GTEestiProDisplay-ThinItalic.woff') format('woff'),
+        url('../fonts/GT/GTEestiProDisplay-ThinItalic.ttf') format('truetype');
+
+  font-weight: 100;
+
+  font-style: italic;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.mx-\[140px\] {
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.mb-\[25px\] {
+  margin-bottom: 25px;
+}
+
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
+.ml-\[200px\] {
+  margin-left: 200px;
+}
+
+.ml-\[20px\] {
+  margin-left: 20px;
+}
+
+.ml-\[60px\] {
+  margin-left: 60px;
+}
+
+.ml-\[64px\] {
+  margin-left: 64px;
+}
+
+.mr-\[100px\] {
+  margin-right: 100px;
+}
+
+.mr-\[10px\] {
+  margin-right: 10px;
+}
+
+.mr-\[19px\] {
+  margin-right: 19px;
+}
+
+.mr-\[50px\] {
+  margin-right: 50px;
+}
+
+.mr-\[6px\] {
+  margin-right: 6px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
+.mt-\[43px\] {
+  margin-top: 43px;
+}
+
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.mt-\[57px\] {
+  margin-top: 57px;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.table {
+  display: table;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-\[450px\] {
+  height: 450px;
+}
+
+.w-\[1645px\] {
+  width: 1645px;
+}
+
+.w-\[40px\] {
+  width: 40px;
+}
+
+.w-\[635px\] {
+  width: 635px;
+}
+
+.max-w-\[230px\] {
+  max-width: 230px;
+}
+
+.max-w-\[321px\] {
+  max-width: 321px;
+}
+
+.max-w-\[826px\] {
+  max-width: 826px;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.translate-x-\[243px\] {
+  --tw-translate-x: 243px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-\[960px\] {
+  --tw-translate-x: 960px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-\[-237px\] {
+  --tw-translate-y: -237px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-\[-40px\] {
+  --tw-translate-y: -40px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-\[12px\] {
+  --tw-translate-y: 12px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-\[8px\] {
+  --tw-translate-y: 8px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-\[1\.3\] {
+  --tw-scale-x: 1.3;
+  --tw-scale-y: 1.3;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-\[16px\] {
+  border-radius: 16px;
+}
+
+.rounded-\[32px\] {
+  border-radius: 32px;
+}
+
+.rounded-\[40px\] {
+  border-radius: 40px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-0 {
+  border-width: 0px;
+}
+
+.bg-\[\#F9D706\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 215 6 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-\[\#423D8A\] {
+  --tw-gradient-from: #423D8A var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(66 61 138 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#E1A72B\] {
+  --tw-gradient-from: #E1A72B var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(225 167 43 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#EAE4FF\] {
+  --tw-gradient-from: #EAE4FF var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(234 228 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-\[\#EAE4FF\] {
+  --tw-gradient-to: rgb(234 228 255 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #EAE4FF var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.to-\[\#413D8A\] {
+  --tw-gradient-to: #413D8A var(--tw-gradient-to-position);
+}
+
+.to-\[\#F9D706\] {
+  --tw-gradient-to: #F9D706 var(--tw-gradient-to-position);
+}
+
+.to-\[\#FFE3F2\] {
+  --tw-gradient-to: #FFE3F2 var(--tw-gradient-to-position);
+}
+
+.p-\[4px\] {
+  padding: 4px;
+}
+
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.py-\[19px\] {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.pt-\[20px\] {
+  padding-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.font-GT {
+  font-family: GT Eesti Pro Display, sans-serif;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[56px\] {
+  font-size: 56px;
+}
+
+.font-\[400\] {
+  font-weight: 400;
+}
+
+.font-\[500\] {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.leading-\[65px\] {
+  line-height: 65px;
+}
+
+.leading-none {
+  line-height: 1;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.text-\[\#000000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#75757E\] {
+  --tw-text-opacity: 1;
+  color: rgb(117 117 126 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#FFFFFF\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.hover\:scale-\[1\.1\]:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
